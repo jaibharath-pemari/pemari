@@ -1,0 +1,18 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "jokes",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      }
+    ],
+    "entity_synonyms": [],
+    "gazette": [],
+    "regex_features": []
+  }
+}

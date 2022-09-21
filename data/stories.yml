@@ -1,0 +1,30 @@
+stories:
+  - story: jokes
+    steps:
+      - intent: jokes
+        user: jokes
+      - action: utter_CpfqdvUlL
+    metadata:
+      group: Example group
+rules:
+  - rule: Farewells
+    condition: []
+    steps:
+      - intent: smalltalk.bye
+      - action: utter_bye
+    metadata:
+      group: Example group
+  - rule: Get started
+    condition: []
+    steps:
+      - intent: get_started
+      - action: utter_get_started
+    metadata:
+      group: Example group
+  - rule: Greetings
+    condition: []
+    steps:
+      - intent: smalltalk.greet
+      - action: utter_hi
+    metadata:
+      group: Example group

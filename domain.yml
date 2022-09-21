@@ -1,0 +1,50 @@
+actions:
+  - action_botfront_disambiguation
+  - action_botfront_disambiguation_followup
+  - action_botfront_fallback
+  - action_botfront_mapping
+  - action_clarity_default_slots
+  - utter_CpfqdvUlL
+  - utter_bye
+  - utter_get_started
+  - utter_hi
+entities: []
+forms: {}
+intents:
+  - get_started
+  - jokes
+  - smalltalk.bye
+  - smalltalk.greet
+responses:
+  utter_CpfqdvUlL:
+    - language: en
+      text: lough yourself!!1
+  utter_bye:
+    - language: en
+      metadata: null
+      text: bye
+  utter_get_started:
+    - language: en
+      metadata: null
+      text: welcome
+  utter_hi:
+    - language: en
+      metadata: null
+      text: hello
+session_config: {}
+slots:
+  disambiguation_message:
+    influence_conversation: false
+    type: text
+  fallback_language:
+    initial_value: en
+    type: unfeaturized
+  firstname:
+    influence_conversation: false
+    type: text
+  language:
+    influence_conversation: false
+    type: text
+  version:
+    influence_conversation: false
+    type: text
