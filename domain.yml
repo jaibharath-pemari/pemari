@@ -148,7 +148,7 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663759479214
+    updatedAt: 1663762166614
 intents:
   - button
   - carousel
@@ -281,7 +281,6 @@ responses:
       text: what you want to order
   utter_SU12rOV__:
     - language: en
-      metadata: null
       text: css. styles
   utter_SYPNqPrll:
     - language: en
