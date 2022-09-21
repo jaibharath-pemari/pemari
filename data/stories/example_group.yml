@@ -6,6 +6,13 @@ stories:
       - action: utter_CpfqdvUlL
     metadata:
       group: Example group
+  - story: name
+    steps:
+      - intent: name
+        user: name
+      - action: utter_SYPNqPrll
+    metadata:
+      group: Example group
 rules:
   - rule: Farewells
     condition: []

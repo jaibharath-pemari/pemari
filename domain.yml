@@ -4,41 +4,330 @@ actions:
   - action_botfront_fallback
   - action_botfront_mapping
   - action_clarity_default_slots
+  - utter_6rF_MgVO6
   - utter_CpfqdvUlL
+  - utter_F7WewSvFU
+  - utter_Ru7Yb9Lc0
+  - utter_SU12rOV__
+  - utter_SYPNqPrll
+  - utter_ask_date
+  - utter_ask_feedback
+  - utter_ask_from
+  - utter_ask_from_place
+  - utter_ask_ticket_count
+  - utter_ask_to_place
   - utter_bye
+  - utter_empty
   - utter_get_started
   - utter_hi
+  - utter_l6weHpKLb
+  - utter_rTdXDfEhM
+  - utter_t6TEieX7Y
+  - utter_valid_feedback
+  - utter_valid_ticket_count
+  - utter_vniR1_Asx
+  - utter_wR-Uo4Ew0
+  - utter_y8gFS8mSh
 entities: []
-forms: {}
+forms:
+  aertrip_form:
+    collect_in_clai: true
+    description: ''
+    graph_elements:
+      edges:
+        - condition: null
+          id: e1-from_place
+          source: '1'
+          target: from_place
+          type: condition
+        - condition: null
+          id: efrom_place-to_place
+          source: from_place
+          target: to_place
+          type: condition
+        - condition: null
+          id: eto_place-date
+          source: to_place
+          target: date
+          type: condition
+        - condition: null
+          id: edate-ticket_count
+          source: date
+          target: ticket_count
+          type: condition
+        - condition: null
+          id: eticket_count-feedback
+          source: ticket_count
+          target: feedback
+          type: condition
+      nodes:
+        - id: '1'
+          position:
+            x: 260
+            'y': 60
+          type: start
+        - id: from_place
+          position:
+            x: 180
+            'y': 180
+          slotName: from_place
+          type: slot
+        - id: to_place
+          position:
+            x: 180
+            'y': 320
+          slotName: to_place
+          type: slot
+        - id: date
+          position:
+            x: 180
+            'y': 460
+          slotName: date
+          type: slot
+        - id: ticket_count
+          position:
+            x: 480
+            'y': 380
+          slotName: ticket_count
+          type: slot
+        - id: feedback
+          position:
+            x: 620
+            'y': 500
+          slotName: feedback
+          type: slot
+    groupName: aertrip
+    name: aertrip_form
+    slots:
+      - filling:
+          - intent:
+              - from_place
+            not_intent: []
+            type: from_text
+        name: from_place
+        utter_on_new_valid_slot: false
+      - filling:
+          - intent:
+              - to_place
+            not_intent: null
+            type: from_text
+        name: to_place
+        utter_on_new_valid_slot: false
+      - filling:
+          - intent:
+              - date
+            not_intent: null
+            type: from_text
+        name: date
+        utter_on_new_valid_slot: false
+      - filling:
+          - intent:
+              - ticket_count
+            not_intent: null
+            type: from_text
+        name: ticket_count
+        utter_on_new_valid_slot: false
+      - filling:
+          - intent:
+              - like_intent
+              - dislike_intent
+            not_intent: []
+            type: from_text
+        name: feedback
+        utter_on_new_valid_slot: false
+    updatedAt: 1663758706486
 intents:
+  - class
+  - css
+  - dislike_intent
   - get_started
+  - greet
   - jokes
+  - name
+  - osg
   - smalltalk.bye
   - smalltalk.greet
+  - travel
 responses:
+  utter_6rF_MgVO6:
+    - language: en
+      metadata:
+        autoRedirect: false
+        customCss:
+          buttoncss: >-
+            border-radius:50%;border:4px solid
+            green;font-weight:bold;font-family:Impact;color:skyblue
+          css: >-
+            background:yellow;font-size:20px;border-radius:10%;border:4px solid
+            green;font-family:Impact;
+          style: custom
+        domHighlight:
+          selector: 'a#projects'
+          style: default
+        forceClose: true
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks:
+          errorIntent: /dislike_intent
+          pageChanges:
+            - callbackIntent: /like_intent
+              elementselector: 'a#projects '
+              regex: true
+              url: 'https://localhost:8080/pmb/#/projects'
+        userInput: show
+      text: Click here to see the projects
   utter_CpfqdvUlL:
     - language: en
-      text: lough yourself!!1
+      text: lough yourself!!
+  utter_F7WewSvFU:
+    - language: en
+      metadata:
+        autoRedirect: false
+        customCss:
+          buttoncss: 'background:yellow'
+          css: 'border-radius:10%;color:skyblue'
+          style: custom
+        forceClose: false
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: show
+      quick_replies:
+        - payload: /class
+          title: class
+          type: postback
+      text: class
+  utter_Ru7Yb9Lc0:
+    - language: en
+      text: what you want to order
+  utter_SU12rOV__:
+    - language: en
+      text: css
+  utter_SYPNqPrll:
+    - language: en
+      text: pemari
+  utter_ask_date:
+    - language: en
+      text: When you want to travel?
+  utter_ask_feedback:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: like
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      text: Feedback please
+  utter_ask_from:
+    - language: en
+      text: 'Ok!!, From where you want travel.'
+  utter_ask_from_place:
+    - language: en
+      text: 'Ok!!, From where you want travel.'
+  utter_ask_ticket_count:
+    - buttons:
+        - payload: /ticket_count
+          payload_value: '1'
+          title: '1'
+          type: postback
+        - payload: /ticket_count
+          payload_value: '2'
+          title: '2'
+          type: postback
+        - payload: /ticket_count
+          payload_value: '3'
+          title: '3'
+          type: postback
+      language: en
+      text: 'How many tickets you want to book, max is 3.'
+  utter_ask_to_place:
+    - language: en
+      text: Please enter where you want to go!!
   utter_bye:
     - language: en
       text: bye
+  utter_empty:
+    - language: en
+      text: empty response
   utter_get_started:
     - language: en
-      text: welcome
+      text: Welcome to AERTRIP!!
   utter_hi:
     - language: en
       text: hello
+  utter_l6weHpKLb:
+    - language: en
+      text: 'Hello {firstname}, How i can help you!!'
+  utter_rTdXDfEhM:
+    - language: en
+      text: 'Sorry, how i can assist you!'
+  utter_t6TEieX7Y:
+    - language: en
+      metadata:
+        autoRedirect: false
+        customCss:
+          buttoncss: >-
+            border-radius:30%;border:4px solid
+            green;font-weight:bold;font-family:Impact;color:yellow
+          css: 'font-weight:italic;font-family:Impact;background:skyblue'
+          style: custom
+        forceClose: false
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks: null
+        pageEventCallbacks: null
+        userInput: show
+      text: hilight class
+  utter_valid_feedback:
+    - language: en
+      text: 'Thanks for booking flight tickets, Please visit again!!'
+  utter_valid_ticket_count:
+    - language: en
+      text: |-
+        You have successfully booked {ticket_count} flight tickets!!  
+        Thanks for visiting *AERTRIP*!!
+  utter_vniR1_Asx:
+    - language: en
+      text: how i can help you!
+  utter_wR-Uo4Ew0:
+    - language: en
+      text: Thanks for your feedback!!
+  utter_y8gFS8mSh:
+    - language: en
+      text: ok take care!!
 session_config: {}
 slots:
+  date:
+    type: text
   disambiguation_message:
     influence_conversation: false
     type: text
   fallback_language:
     initial_value: en
     type: unfeaturized
+  feedback:
+    type: text
   firstname:
     type: text
+  from_place:
+    type: text
   language:
+    type: text
+  requested_slot:
+    type: categorical
+    values:
+      - from_place
+      - to_place
+      - date
+      - ticket_count
+      - feedback
+  ticket_count:
+    type: text
+  to_place:
     type: text
   version:
     type: text
