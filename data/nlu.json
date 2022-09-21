@@ -2,8 +2,24 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "class",
-        "intent": "class",
+        "text": "btn",
+        "intent": "button",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buttn",
+        "intent": "button",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "button",
+        "intent": "button",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -11,12 +27,52 @@
         }
       },
       {
-        "text": "css",
-        "intent": "css",
+        "text": "buttons",
+        "intent": "button",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "carousel",
+        "intent": "carousel",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "carousels",
+        "intent": "carousel",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "carousl",
+        "intent": "carousel",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "class",
+        "intent": "class",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "css",
+        "intent": "css",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -31,8 +87,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -47,8 +102,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -63,8 +117,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -79,8 +132,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -95,8 +147,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -111,8 +162,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -127,8 +177,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -143,8 +192,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -159,8 +207,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -175,8 +222,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -191,8 +237,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -207,8 +252,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -223,8 +267,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -239,8 +282,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -255,8 +297,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -271,8 +312,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -287,8 +327,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -296,8 +335,7 @@
         "intent": "date",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -320,8 +358,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -352,8 +389,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -385,8 +421,7 @@
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -394,8 +429,7 @@
         "intent": "feedback",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -419,8 +453,7 @@
         "intent": "from_place",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -500,8 +533,7 @@
         "intent": "greet",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -509,8 +541,7 @@
         "intent": "help",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -530,6 +561,31 @@
         }
       },
       {
+        "text": "image",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "images",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "img",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "joke",
         "intent": "jokes",
         "entities": [],
@@ -542,8 +598,7 @@
         "intent": "jokes",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -567,8 +622,7 @@
         "intent": "leave",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -608,8 +662,15 @@
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
+        }
+      },
+      {
+        "text": "likes",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -671,8 +732,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -699,8 +759,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -727,8 +786,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -749,8 +807,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -777,8 +834,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -805,8 +861,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -833,8 +888,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -861,8 +915,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -870,8 +923,7 @@
         "intent": "order",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -903,8 +955,31 @@
         "intent": "osg",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
+        }
+      },
+      {
+        "text": "onscreen guidances",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "osg",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "oswg",
+        "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -912,8 +987,7 @@
         "intent": "return",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -941,12 +1015,103 @@
         }
       },
       {
-        "text": "1",
-        "intent": "ticket_count",
+        "text": "bye",
+        "intent": "smalltalk.bye",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "rate us",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "rating",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star rating",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star ratings",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "startrating",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "show table",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "table",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "tables",
+        "intent": "table",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "text",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "txt",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "1",
+        "intent": "ticket_count",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -994,8 +1159,7 @@
         "intent": "to_place",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -1083,8 +1247,7 @@
         "intent": "travel",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -1094,9 +1257,69 @@
         "metadata": {
           "language": "en"
         }
+      },
+      {
+        "text": "vedio",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "video",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "video's",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "videos",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
       }
     ],
     "entity_synonyms": [
+      {
+        "value": "from",
+        "synonyms": [
+          "banglore",
+          "banglore",
+          "chennai.kolkota",
+          "del",
+          "delhi",
+          "hyd",
+          "hyderbad",
+          "mum",
+          "mumbai"
+        ]
+      },
+      {
+        "value": "to",
+        "synonyms": [
+          "europe",
+          "germany",
+          "goa",
+          "japan",
+          "kerala",
+          "uk",
+          "us",
+          "usa"
+        ]
+      },
       {
         "value": "from",
         "synonyms": [

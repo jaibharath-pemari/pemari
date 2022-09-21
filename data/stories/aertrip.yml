@@ -20,7 +20,7 @@ stories:
       group: aertrip
   - story: like
     steps:
-      - intent: dislike_intent
+      - intent: like_intent
         user: like
       - action: utter_wR-Uo4Ew0
     metadata:

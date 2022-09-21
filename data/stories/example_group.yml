@@ -1,18 +1,4 @@
-stories:
-  - story: jokes
-    steps:
-      - intent: jokes
-        user: jokes
-      - action: utter_CpfqdvUlL
-    metadata:
-      group: Example group
-  - story: name
-    steps:
-      - intent: name
-        user: name
-      - action: utter_SYPNqPrll
-    metadata:
-      group: Example group
+stories: []
 rules:
   - rule: Farewells
     condition: []
