@@ -135,7 +135,7 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663758706486
+    updatedAt: 1663759078429
 intents:
   - class
   - css
@@ -206,8 +206,7 @@ responses:
       text: css
   utter_SYPNqPrll:
     - language: en
-      metadata: null
-      text: pemari1
+      text: pemari
   utter_ask_date:
     - language: en
       text: When you want to travel?
