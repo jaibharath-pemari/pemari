@@ -18,7 +18,7 @@ intents:
 responses:
   utter_CpfqdvUlL:
     - language: en
-      text: lough yourself!!1
+      text: lough yourself!!12
   utter_bye:
     - language: en
       metadata: null
