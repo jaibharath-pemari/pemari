@@ -148,7 +148,7 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663759387279
+    updatedAt: 1663759479214
 intents:
   - button
   - carousel
