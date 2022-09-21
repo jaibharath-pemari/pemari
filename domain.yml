@@ -18,18 +18,15 @@ intents:
 responses:
   utter_CpfqdvUlL:
     - language: en
-      text: lough yourself!!12
+      text: lough yourself!!1
   utter_bye:
     - language: en
-      metadata: null
       text: bye
   utter_get_started:
     - language: en
-      metadata: null
       text: welcome
   utter_hi:
     - language: en
-      metadata: null
       text: hello
 session_config: {}
 slots:
@@ -40,11 +37,8 @@ slots:
     initial_value: en
     type: unfeaturized
   firstname:
-    influence_conversation: false
     type: text
   language:
-    influence_conversation: false
     type: text
   version:
-    influence_conversation: false
     type: text
