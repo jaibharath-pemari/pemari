@@ -190,6 +190,7 @@ responses:
       text: super
   utter_4rCbOLldP:
     - language: en
+      metadata: null
       quick_replies:
         - payload: /jokes
           payload_value: null
@@ -204,7 +205,7 @@ responses:
           type: web_url
           url: >-
             https://jaibharath-pemari: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@github.com/jaibharath-pemari/test-git.git#master
-      text: click me for jokes!uuu
+      text: click me for jokes!uuuhhh
   utter_6rF_MgVO6:
     - language: en
       metadata:
