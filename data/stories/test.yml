@@ -1,9 +1,86 @@
 stories:
+  - story: button
+    steps:
+      - intent: button
+        user: button
+      - action: utter_4rCbOLldP
+    metadata:
+      group: test
+  - story: carousel
+    steps:
+      - intent: carousel
+        user: carousel
+      - action: utter_deFuTeEF4
+    metadata:
+      group: test
+  - story: feedback
+    steps:
+      - intent: feedback
+        user: feedback
+      - action: utter_2D3nes0_3
+    metadata:
+      group: test
+  - story: feedback_1
+    steps:
+      - intent: feedback_1
+        entities: []
+      - action: utter_RFm2J7i-p
+    metadata:
+      group: test
+  - story: feedback_2
+    steps:
+      - intent: feedback_2
+        entities: []
+      - action: utter_3wY4tslzT
+    metadata:
+      group: test
+  - story: feedback_3
+    steps:
+      - intent: feedback_3
+        entities: []
+      - action: utter_gvPOxnaYK
+    metadata:
+      group: test
+  - story: image
+    steps:
+      - intent: image
+        user: image
+      - action: utter_zDlm2j2dy
+    metadata:
+      group: test
+  - story: jokes
+    steps:
+      - intent: jokes
+        user: jokes
+      - action: action_jokes
+    metadata:
+      group: test
+  - story: starrating
+    steps:
+      - intent: starrating
+        user: startrating
+      - action: utter_ETLxfw2Yf
+    metadata:
+      group: test
+  - story: table
+    steps:
+      - intent: table
+        user: table
+      - action: utter_VV52JcKNF
+    metadata:
+      group: test
   - story: text
     steps:
       - intent: text
         user: text
       - action: utter_B6e4Qk-We
+    metadata:
+      group: test
+  - story: video
+    steps:
+      - intent: video
+        user: video
+      - action: utter_ehMBh0-pf
     metadata:
       group: test
 rules: []

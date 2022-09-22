@@ -1,0 +1,9 @@
+stories:
+  - story: osg (1)
+    steps:
+      - intent: osg
+        user: goto project
+      - action: utter_6rF_MgVO6
+    metadata:
+      group: osg
+rules: []
