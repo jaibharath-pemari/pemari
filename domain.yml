@@ -148,7 +148,7 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663824524104
+    updatedAt: 1663824753336
 intents:
   - button
   - carousel
@@ -190,7 +190,6 @@ responses:
       text: super
   utter_4rCbOLldP:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /jokes
           payload_value: null
