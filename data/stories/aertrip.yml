@@ -1,0 +1,28 @@
+stories:
+  - story: aertrip
+    steps:
+      - intent: greet
+        user: hi
+      - action: utter_l6weHpKLb
+      - intent: travel
+        user: i want to travel
+      - action: aertrip_form
+      - active_loop: aertrip_form
+      - active_loop: null
+    metadata:
+      group: aertrip
+  - story: dislike
+    steps:
+      - intent: dislike_intent
+        user: dislike
+      - action: utter_rTdXDfEhM
+    metadata:
+      group: aertrip
+  - story: like
+    steps:
+      - intent: like_intent
+        user: like
+      - action: utter_wR-Uo4Ew0
+    metadata:
+      group: aertrip
+rules: []

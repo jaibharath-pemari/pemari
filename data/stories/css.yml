@@ -1,0 +1,16 @@
+stories:
+  - story: css
+    steps:
+      - intent: css
+        user: css
+      - action: utter_SU12rOV__
+    metadata:
+      group: css
+  - story: hilight class
+    steps:
+      - intent: class
+        user: class
+      - action: utter_F7WewSvFU
+    metadata:
+      group: css
+rules: []
