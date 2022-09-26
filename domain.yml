@@ -165,7 +165,7 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1664190082769
+    updatedAt: 1664190500164
 intents:
   - button
   - callback
@@ -247,7 +247,6 @@ responses:
       text: click me for jokes!uuu
   utter_5774xMNLh:
     - language: en
-      metadata: null
       table:
         data:
           - - payload_type: text
@@ -382,7 +381,6 @@ responses:
       text: pemari
   utter_SyGhm38TQ:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /images
           payload_value: null
@@ -395,7 +393,6 @@ responses:
       text: Testing using Payload and Value
   utter_VV52JcKNF:
     - language: en
-      metadata: null
       table:
         data:
           - - payload_type: text
@@ -503,7 +500,6 @@ responses:
       text: empty response
   utter_get_started:
     - language: en
-      metadata: null
       text: 'Hello {firsname}, Welcome to clai project'
   utter_gvPOxnaYK:
     - language: en
@@ -606,12 +602,10 @@ slots:
   feedback:
     type: text
   firstname:
-    influence_conversation: false
     type: text
   from_place:
     type: text
   language:
-    influence_conversation: false
     type: text
   requested_slot:
     type: categorical
@@ -626,5 +620,4 @@ slots:
   to_place:
     type: text
   version:
-    influence_conversation: false
     type: text

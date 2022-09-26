@@ -452,7 +452,8 @@
         "intent": "feedback",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -616,7 +617,8 @@
         "intent": "images",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -984,7 +986,8 @@
         "intent": "order",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -1057,7 +1060,8 @@
         "intent": "rating",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -1240,7 +1244,8 @@
         "intent": "timesheets",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -1370,7 +1375,8 @@
         "intent": "video",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
