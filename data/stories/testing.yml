@@ -1,0 +1,145 @@
+stories:
+  - story: Buttons
+    steps:
+      - intent: button
+        user: buttons
+      - action: utter_SyGhm38TQ
+    metadata:
+      group: Testing
+  - story: carousel
+    steps:
+      - intent: carousel
+        user: carousel
+      - action: utter_deFuTeEF4
+    metadata:
+      group: Testing
+  - story: Feedback
+    steps:
+      - intent: feedback
+        user: feedback
+      - action: utter_nIatl3cJ6
+      - checkpoint: Feedback__branches
+    metadata:
+      group: Testing
+  - story: Feedback__dislike
+    steps:
+      - checkpoint: Feedback__branches
+      - intent: dislike_intent
+        entities: []
+      - action: utter_msdFtPWNL
+    metadata:
+      group: Testing
+  - story: Feedback__like
+    steps:
+      - checkpoint: Feedback__branches
+      - intent: like_intent
+        entities: []
+      - action: utter_x26WTFxOy
+    metadata:
+      group: Testing
+  - story: feedback_1
+    steps:
+      - intent: feedback_1
+        entities: []
+      - action: utter_4neXaqiZh
+    metadata:
+      group: Testing
+  - story: feedback_2
+    steps:
+      - intent: feedback_2
+        entities: []
+      - action: utter_lw6H0Sxcs
+    metadata:
+      group: Testing
+  - story: feedback_3
+    steps:
+      - intent: feedback_3
+        entities: []
+      - action: utter_m6G-eAGY6
+    metadata:
+      group: Testing
+  - story: image
+    steps:
+      - intent: image
+        user: image
+      - action: utter_zDlm2j2dy
+    metadata:
+      group: Testing
+  - story: osg
+    steps:
+      - intent: timesheets
+        user: timesheets pending my approval
+      - action: utter_XSC16FaUV
+      - checkpoint: osg__branches
+    metadata:
+      group: Testing
+  - story: osg__callback
+    steps:
+      - checkpoint: osg__branches
+      - intent: callback
+        entities: []
+      - action: utter_SB60dBWul
+    metadata:
+      group: Testing
+  - story: osg__error
+    steps:
+      - checkpoint: osg__branches
+      - intent: error
+        entities: []
+      - action: utter_3CDQm_lbS1
+    metadata:
+      group: Testing
+  - story: starrating
+    steps:
+      - intent: starrating
+        user: startrating
+      - action: utter_ETLxfw2Yf
+    metadata:
+      group: Testing
+  - story: starrating
+    steps:
+      - intent: rating
+        user: star rating
+      - action: utter_PPAaCyFCL
+    metadata:
+      group: Testing
+  - story: Table
+    steps:
+      - intent: tables
+        user: table
+      - action: utter_5774xMNLh
+    metadata:
+      group: Testing
+  - story: text
+    steps:
+      - intent: text
+        user: text
+      - action: utter_B6e4Qk-We
+    metadata:
+      group: Testing
+  - story: Triggers
+    steps:
+      - intent: trigger_z3TjwUFWm
+        entities: []
+      - action: utter_kvN93ig3o
+    metadata:
+      rules:
+        - trigger:
+            when: always
+            timeLimit__DISPLAYIF: true
+            timeLimit: 1
+            url__DISPLAYIF: true
+            url:
+              - partialMatch: true
+                regularExpression: false
+                path: 'http://192.168.29.22:8080/pmb/#/projects/common'
+      triggerIntent: trigger_z3TjwUFWm
+      group: Testing
+  - story: video
+    steps:
+      - intent: video
+        user: video
+      - action: utter_ALqMYczPx
+    metadata:
+      group: Testing
+rules: []

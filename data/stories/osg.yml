@@ -1,5 +1,5 @@
 stories:
-  - story: osg (1)
+  - story: osg
     steps:
       - intent: osg
         user: goto project

@@ -5,19 +5,30 @@ actions:
   - action_botfront_mapping
   - action_clarity_default_slots
   - action_jokes
+  - utter_-NhGlNQTl
+  - utter_1PXkDp1_3
   - utter_2D3nes0_3
+  - utter_3CDQm_lbS1
   - utter_3wY4tslzT
+  - utter_4neXaqiZh
   - utter_4rCbOLldP
+  - utter_5774xMNLh
   - utter_6rF_MgVO6
+  - utter_AKTJEdSdT
+  - utter_ALqMYczPx
   - utter_B6e4Qk-We
   - utter_CpfqdvUlL
   - utter_ETLxfw2Yf
   - utter_F7WewSvFU
+  - utter_PPAaCyFCL
   - utter_RFm2J7i-p
   - utter_Ru7Yb9Lc0
+  - utter_SB60dBWul
   - utter_SU12rOV__
   - utter_SYPNqPrll
+  - utter_SyGhm38TQ
   - utter_VV52JcKNF
+  - utter_XSC16FaUV
   - utter_ask_date
   - utter_ask_feedback
   - utter_ask_from
@@ -31,7 +42,12 @@ actions:
   - utter_get_started
   - utter_gvPOxnaYK
   - utter_hi
+  - utter_kvN93ig3o
   - utter_l6weHpKLb
+  - utter_lw6H0Sxcs
+  - utter_m6G-eAGY6
+  - utter_msdFtPWNL
+  - utter_nIatl3cJ6
   - utter_rTdXDfEhM
   - utter_t6TEieX7Y
   - utter_t7c4Nxqp2
@@ -39,6 +55,7 @@ actions:
   - utter_valid_ticket_count
   - utter_vniR1_Asx
   - utter_wR-Uo4Ew0
+  - utter_x26WTFxOy
   - utter_y8gFS8mSh
   - utter_zDlm2j2dy
 entities: []
@@ -109,7 +126,7 @@ forms:
             'y': 500
           slotName: feedback
           type: slot
-    groupName: aertrip
+    groupName: test_forms
     name: aertrip_form
     slots:
       - filling:
@@ -148,13 +165,15 @@ forms:
             type: from_text
         name: feedback
         utter_on_new_valid_slot: false
-    updatedAt: 1663822986121
+    updatedAt: 1664190082769
 intents:
   - button
+  - callback
   - carousel
   - class
   - css
   - dislike_intent
+  - error
   - feedback
   - feedback_1
   - feedback_2
@@ -165,14 +184,26 @@ intents:
   - jokes
   - like_intent
   - osg
+  - rating
   - smalltalk.bye
   - smalltalk.greet
   - starrating
-  - table
+  - tables
   - text
+  - timesheets
   - travel
+  - trigger_z3TjwUFWm
   - video
 responses:
+  utter_-NhGlNQTl:
+    - image:
+        alt: png
+        url: >-
+          data:image/jpeg;base64,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
+      language: en
+  utter_1PXkDp1_3:
+    - language: en
+      text: ordered
   utter_2D3nes0_3:
     - language: en
       likedislike:
@@ -185,31 +216,58 @@ responses:
           title: dislike
           type: postback
       text: feedback us!!
+  utter_3CDQm_lbS1:
+    - language: en
+      text: error triggered
   utter_3wY4tslzT:
     - language: en
       text: super
+  utter_4neXaqiZh:
+    - language: en
+      text: feedback 1
   utter_4rCbOLldP:
     - language: en
-      metadata: null
       quick_replies:
         - payload: /jokes
           payload_value: null
           title: jokes
           type: postback
-        - payload: /feedback_1
-          payload_value: null
-          title: feedback_1
+        - payload: /feedback
+          payload_value: like
+          title: feedback
           type: postback
         - payload_value: null
           title: GitHub
           type: web_url
           url: >-
             https://jaibharath-pemari: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@github.com/jaibharath-pemari/test-git.git#master
-        - payload: /like_intent
-          payload_value: null
-          title: "\U0001F44D"
+        - payload: /video
+          title: video
           type: postback
       text: click me for jokes!uuu
+  utter_5774xMNLh:
+    - language: en
+      metadata: null
+      table:
+        data:
+          - - payload_type: text
+              text: '1'
+            - payload: images
+              payload_type: payload
+              text: 'image as payload '
+          - - payload_type: text
+              text: '2'
+            - payload: >-
+                https://www.google.com/search?q=images&rlz=1C1CHBF_enIN883IN883&oq=images&aqs=chrome.0.69i59j0i433i512j0i512j0i433i512l3j0i512j69i60.3634j0j4&sourceid=chrome&ie=UTF-8
+              payload_type: url_self
+              text: self url
+        headings:
+          - Sno
+          - value
+        limitrow: '5'
+        stylebody: 'border:1px solid silver;padding:8px;color:black'
+        stylehead: 'border:1px solid silver;padding:8px;background:#FFC0CB;color:#fff'
+      text: null
   utter_6rF_MgVO6:
     - language: en
       metadata:
@@ -237,6 +295,15 @@ responses:
               url: 'https://localhost:8080/pmb/#/projects'
         userInput: show
       text: Click here to see the projects
+  utter_AKTJEdSdT:
+    - language: en
+      text: lough loud
+  utter_ALqMYczPx:
+    - language: en
+      video:
+        tag: rasa
+        type: video
+        url: 'https://www.youtube.com/embed/94K4LU_Pe8Y'
   utter_B6e4Qk-We:
     - language: en
       text: This is a first text response
@@ -245,7 +312,6 @@ responses:
       text: lough yourself!!
   utter_ETLxfw2Yf:
     - language: en
-      metadata: null
       starrating:
         - payload: /feedback_1
           payload_value: '1'
@@ -279,20 +345,57 @@ responses:
           title: class
           type: postback
       text: class
+  utter_PPAaCyFCL:
+    - language: en
+      starrating:
+        - payload: /feedback_1
+          payload_value: ''
+          title: star_1
+          type: postback
+        - payload: /feedback_2
+          payload_value: ''
+          title: star_2
+          type: postback
+        - payload: /feedback_3
+          payload_value: ''
+          title: star_3
+          type: postback
+        - payload: /feedback_4
+          payload_value: ''
+          title: star_4
+          type: postback
+      text: Give rating
   utter_RFm2J7i-p:
     - language: en
       text: good
   utter_Ru7Yb9Lc0:
     - language: en
       text: what you want to order
+  utter_SB60dBWul:
+    - language: en
+      text: callback triggered
   utter_SU12rOV__:
     - language: en
       text: css. styles
   utter_SYPNqPrll:
     - language: en
       text: pemari
+  utter_SyGhm38TQ:
+    - language: en
+      metadata: null
+      quick_replies:
+        - payload: /images
+          payload_value: null
+          title: Payload
+          type: postback
+        - payload: /video
+          payload_value: show me videos
+          title: Value
+          type: postback
+      text: Testing using Payload and Value
   utter_VV52JcKNF:
     - language: en
+      metadata: null
       table:
         data:
           - - payload_type: text
@@ -313,6 +416,28 @@ responses:
         stylebody: 'border:1px solid silver;padding:8px;color:black'
         stylehead: 'border:1px solid silver;padding:8px;background:#000;color:#fff'
       text: null
+  utter_XSC16FaUV:
+    - language: en
+      metadata:
+        autoRedirect: false
+        domHighlight:
+          selector: >-
+            #timesheets > a >
+            span.nav-icon.flex-container.flex-col.center-v.center-h.default.collapsed
+          style: default
+        forceClose: true
+        forceOpen: false
+        linkTarget: _blank
+        pageChangeCallbacks:
+          errorIntent: /error
+          pageChanges:
+            - callbackIntent: /callback
+              regex: true
+              url: >-
+                timesheetId=[0-9]{7}&resourceId=[0-9]{1,7}&timeperiodId=[0-9]{7}$
+        pageEventCallbacks: null
+        userInput: show
+      text: Click on this icon
   utter_ask_date:
     - language: en
       text: When you want to travel?
@@ -378,16 +503,41 @@ responses:
       text: empty response
   utter_get_started:
     - language: en
-      text: Welcome to AERTRIP!!
+      metadata: null
+      text: 'Hello {firsname}, Welcome to clai project'
   utter_gvPOxnaYK:
     - language: en
       text: awesome!
   utter_hi:
     - language: en
       text: hello
+  utter_kvN93ig3o:
+    - language: en
+      text: Trigger response
   utter_l6weHpKLb:
     - language: en
       text: 'Hello {firstname}, How i can help you!!'
+  utter_lw6H0Sxcs:
+    - language: en
+      text: feedback 2
+  utter_m6G-eAGY6:
+    - language: en
+      text: feedback 3
+  utter_msdFtPWNL:
+    - language: en
+      text: dislike triggered
+  utter_nIatl3cJ6:
+    - language: en
+      likedislike:
+        - payload: /like_intent
+          payload_value: ''
+          title: like
+          type: postback
+        - payload: /dislike_intent
+          payload_value: ''
+          title: dislike
+          type: postback
+      text: Give Feedback
   utter_rTdXDfEhM:
     - language: en
       text: 'Sorry, how i can assist you!'
@@ -430,6 +580,9 @@ responses:
   utter_wR-Uo4Ew0:
     - language: en
       text: Thanks for your feedback!!
+  utter_x26WTFxOy:
+    - language: en
+      text: like triggered
   utter_y8gFS8mSh:
     - language: en
       text: ok take care!!
@@ -453,10 +606,12 @@ slots:
   feedback:
     type: text
   firstname:
+    influence_conversation: false
     type: text
   from_place:
     type: text
   language:
+    influence_conversation: false
     type: text
   requested_slot:
     type: categorical
@@ -471,4 +626,5 @@ slots:
   to_place:
     type: text
   version:
+    influence_conversation: false
     type: text

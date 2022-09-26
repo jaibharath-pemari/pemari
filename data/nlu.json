@@ -6,7 +6,8 @@
         "intent": "button",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -22,8 +23,7 @@
         "intent": "button",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -452,8 +452,7 @@
         "intent": "feedback",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -466,6 +465,22 @@
       },
       {
         "text": "feedback us",
+        "intent": "feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "give feedback",
+        "intent": "feedback",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "give me feedback",
         "intent": "feedback",
         "entities": [],
         "metadata": {
@@ -588,7 +603,7 @@
         }
       },
       {
-        "text": "image",
+        "text": "images",
         "intent": "image",
         "entities": [],
         "metadata": {
@@ -597,8 +612,8 @@
         }
       },
       {
-        "text": "images",
-        "intent": "image",
+        "text": "image",
+        "intent": "images",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -606,7 +621,15 @@
       },
       {
         "text": "img",
-        "intent": "image",
+        "intent": "images",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "png",
+        "intent": "images",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -961,8 +984,7 @@
         "intent": "order",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -983,6 +1005,14 @@
       },
       {
         "text": "order please",
+        "intent": "order",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "take order",
         "intent": "order",
         "entities": [],
         "metadata": {
@@ -1017,6 +1047,30 @@
       {
         "text": "oswg",
         "intent": "osg",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "rating",
+        "intent": "rating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "star rating",
+        "intent": "rating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "stars",
+        "intent": "rating",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1073,22 +1127,6 @@
         }
       },
       {
-        "text": "rating",
-        "intent": "starrating",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "star rating",
-        "intent": "starrating",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
         "text": "star ratings",
         "intent": "starrating",
         "entities": [],
@@ -1110,12 +1148,13 @@
         "intent": "table",
         "entities": [],
         "metadata": {
-          "language": "en"
+          "language": "en",
+          "canonical": true
         }
       },
       {
         "text": "table",
-        "intent": "table",
+        "intent": "tables",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -1124,7 +1163,7 @@
       },
       {
         "text": "tables",
-        "intent": "table",
+        "intent": "tables",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1191,6 +1230,30 @@
       {
         "text": "two",
         "intent": "ticket_count",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "timesheet",
+        "intent": "timesheets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "timesheets",
+        "intent": "timesheets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "timesheets pending my approval",
+        "intent": "timesheets",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1303,6 +1366,14 @@
         }
       },
       {
+        "text": "show me videos",
+        "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "vedio",
         "intent": "video",
         "entities": [],
@@ -1315,8 +1386,7 @@
         "intent": "video",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -1392,7 +1462,22 @@
         ]
       }
     ],
-    "gazette": [],
+    "gazette": [
+      {
+        "value": "name",
+        "gazette": [
+          "bharath",
+          "sharath"
+        ]
+      },
+      {
+        "value": "name",
+        "gazette": [
+          "bharath",
+          "sharath"
+        ]
+      }
+    ],
     "regex_features": []
   }
 }
