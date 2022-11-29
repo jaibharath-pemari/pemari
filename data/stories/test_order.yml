@@ -1,0 +1,26 @@
+stories:
+  - story: order (1)
+    steps:
+      - intent: order
+        user: order
+      - action: order_form
+      - active_loop: order_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test_order
+  - story: order (3)
+    steps:
+      - intent: 'yes'
+        user: 'yes'
+      - action: utter_WQKoCXw94
+    metadata:
+      group: test_order
+  - story: order (4)
+    steps:
+      - intent: 'no'
+        entities: []
+      - action: utter_0UJoo8SmZ
+    metadata:
+      group: test_order
+rules: []

@@ -1,0 +1,98 @@
+stories:
+  - story: aertrip
+    steps:
+      - intent: fly
+        user: i want to fly
+      - action: aertrip_form
+      - active_loop: aertrip_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test_forms
+  - story: button_forms
+    steps:
+      - intent: testing_button_forms
+        user: button forms testing
+      - action: button_test_form
+      - active_loop: button_test_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test_forms
+  - story: button_forms2
+    steps:
+      - intent: form_button_test2
+        user: one more test for forms
+      - action: button_test2_form
+      - active_loop: button_test2_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test_forms
+  - story: dislike
+    steps:
+      - intent: dislike_intent
+        user: dislike
+      - action: utter_S7PLC-3tR
+    metadata:
+      group: test_forms
+  - story: feedback_1
+    steps:
+      - intent: feedback_1
+        entities: []
+      - action: utter_dOmzwHGSb
+    metadata:
+      group: test_forms
+  - story: feedback_2
+    steps:
+      - intent: feedback_2
+        entities: []
+      - action: utter_puYUt8Pw_
+    metadata:
+      group: test_forms
+  - story: feedback_3
+    steps:
+      - intent: feedback_3
+        entities: []
+      - action: utter_PXBc9jLW7
+    metadata:
+      group: test_forms
+  - story: feedback_4
+    steps:
+      - intent: feedback_4
+        entities: []
+      - action: utter_bKTVRAKbZ
+    metadata:
+      group: test_forms
+  - story: feedback_5
+    steps:
+      - intent: feedback_5
+        entities: []
+      - action: utter_lAVMSwzVg
+    metadata:
+      group: test_forms
+  - story: form3
+    steps:
+      - intent: z
+        user: a
+      - action: test_forms_form
+      - active_loop: test_forms_form
+      - active_loop: null
+      - action: action_reset_form_slots
+    metadata:
+      group: test_forms
+  - story: like
+    steps:
+      - intent: like_intent
+        user: like
+      - action: utter_81tI4tUVPg
+    metadata:
+      group: test_forms
+  - story: ticket_count
+    steps:
+      - intent: ticket_count
+        user: ticket count
+      - action: utter_XqE87eaTE
+    metadata:
+      group: test_forms
+rules: []

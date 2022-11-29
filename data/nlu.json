@@ -2,8 +2,8 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "text": "btn",
-        "intent": "button",
+        "text": "animation",
+        "intent": "animation",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -11,7 +11,7 @@
         }
       },
       {
-        "text": "buttn",
+        "text": "button",
         "intent": "button",
         "entities": [],
         "metadata": {
@@ -19,7 +19,7 @@
         }
       },
       {
-        "text": "button",
+        "text": "button please",
         "intent": "button",
         "entities": [],
         "metadata": {
@@ -32,6 +32,240 @@
         "entities": [],
         "metadata": {
           "language": "en"
+        }
+      },
+      {
+        "text": "buttons please",
+        "intent": "button",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show buttons",
+        "intent": "button",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "bike",
+        "intent": "buy_bike",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "get me a bike",
+        "intent": "buy_bike",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to buy bike",
+        "intent": "buy_bike",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "order bike",
+        "intent": "buy_bike",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "I want to buy a blue shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "blue",
+            "start": 16,
+            "end": 20
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "buy red shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "red",
+            "start": 4,
+            "end": 7
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "do you have pink shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "pink",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "get me a couple of brown shirts",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "brown",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "get me a yellow shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "yellow",
+            "start": 9,
+            "end": 15
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "get me more white shirts",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "white",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i need green shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "green",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want a green shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "green",
+            "start": 9,
+            "end": 14
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to buy blue shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "blue",
+            "start": 14,
+            "end": 18,
+            "extractor": "DIETClassifier"
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to buy tttt shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "entity": "color",
+            "value": "tttt",
+            "start": 14,
+            "end": 18
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "need green shirts",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "green",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "order me a white shirt",
+        "intent": "buy_shirt",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "white",
+            "entity": "color"
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -60,6 +294,14 @@
         }
       },
       {
+        "text": "clas",
+        "intent": "class",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "class",
         "intent": "class",
         "entities": [],
@@ -69,8 +311,122 @@
         }
       },
       {
+        "text": "classes",
+        "intent": "class",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "class image",
+        "intent": "class_image",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "image class",
+        "intent": "class_image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "blue",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "brown",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "green",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "red",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "white",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "yellow",
+        "intent": "color",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "cs",
+        "intent": "css",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "css",
         "intent": "css",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "csss",
+        "intent": "css",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "custom cs",
+        "intent": "custom_css",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "custom css",
+        "intent": "custom_css",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "custome",
+        "intent": "custom_css",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -89,8 +445,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -105,8 +460,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -121,8 +475,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -137,8 +490,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -153,8 +505,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -169,8 +520,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -185,8 +535,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -201,8 +550,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -233,8 +581,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -249,8 +596,7 @@
           }
         ],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -439,12 +785,93 @@
         }
       },
       {
+        "text": "animate",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "delat testing",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "delay",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "delay test",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "delay time",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test delay",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "time delay",
+        "intent": "delay",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "dislik",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "dislike",
         "intent": "dislike_intent",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "disliked",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "dislikes",
+        "intent": "dislike_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -489,12 +916,167 @@
         }
       },
       {
+        "text": "feedback1",
+        "intent": "feedback_1",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "one star",
+        "intent": "feedback_1",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "three stars",
+        "intent": "feedback_3",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "four stars",
+        "intent": "feedback_4",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "fly",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "fly me",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want fly",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want fly high",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want fly to visit",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to fly",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i will fly",
+        "intent": "fly",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "burger",
+        "intent": "food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "coke",
+        "intent": "food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "pasta",
+        "intent": "food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "pizza",
+        "intent": "food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "one more test for forms",
+        "intent": "form_button_test2",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "test form again",
+        "intent": "form_button_test2",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing form again",
+        "intent": "form_button_test2",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "banglor",
         "intent": "from_place",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "banglore",
+        "intent": "from_place",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -570,12 +1152,59 @@
         }
       },
       {
+        "text": "vizag",
+        "intent": "from_place",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "heyy",
+        "intent": "greet",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "hi",
         "intent": "greet",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
+        }
+      },
+      {
+        "text": "hii",
+        "intent": "greet",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "hiya",
+        "intent": "greet",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -588,7 +1217,7 @@
         }
       },
       {
-        "text": "help me",
+        "text": "help please",
         "intent": "help",
         "entities": [],
         "metadata": {
@@ -596,8 +1225,16 @@
         }
       },
       {
-        "text": "help please",
-        "intent": "help",
+        "text": "imag",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "image",
+        "intent": "image",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -608,22 +1245,20 @@
         "intent": "image",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "image",
-        "intent": "images",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
         "text": "img",
-        "intent": "images",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "jpg",
+        "intent": "image",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -631,7 +1266,31 @@
       },
       {
         "text": "png",
-        "intent": "images",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show me image",
+        "intent": "image",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "fun jokes",
+        "intent": "jokes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "fun jokes please",
+        "intent": "jokes",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -642,8 +1301,7 @@
         "intent": "jokes",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -663,61 +1321,35 @@
         }
       },
       {
-        "text": "grant me a leave",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en",
-          "canonical": true
-        }
-      },
-      {
-        "text": "i need leave",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "i need off",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "i want leave",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "i will be on leave",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "leave me",
-        "intent": "leave",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "like",
+        "text": "i like it",
         "intent": "like_intent",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
+        }
+      },
+      {
+        "text": "i liked",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like me",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like more",
+        "intent": "like_intent",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -765,6 +1397,191 @@
         "text": "whats your name",
         "intent": "name",
         "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "features",
+        "intent": "new_carousel",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "new features",
+        "intent": "new_carousel",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "updated things",
+        "intent": "new_carousel",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "no",
+        "intent": "no",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "noo",
+        "intent": "no",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "nooo",
+        "intent": "no",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "AP-AS-1021",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "AP-AS-1021",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "AP-AS-7814",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "AP-AS-7814",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "AP-QQ-7880",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "AP-QQ-7880",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "AP-QQ-7886",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "AP-QQ-7886",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "AP-QQ-7889",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "AP-QQ-7889",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "DL-NH-7880",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "DL-NH-7880",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "KA-BL-7880",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "KA-BL-7880",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "KL-QQ-7880",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "KL-QQ-7880",
+            "start": 0,
+            "end": 10
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "UP-QQ-7880",
+        "intent": "number_plate",
+        "entities": [
+          {
+            "entity": "number_plate",
+            "value": "UP-QQ-7880",
+            "start": 0,
+            "end": 10
+          }
+        ],
         "metadata": {
           "language": "en"
         }
@@ -1023,8 +1840,32 @@
         }
       },
       {
-        "text": "goto project",
-        "intent": "osg",
+        "text": "drinks please",
+        "intent": "order_drinks",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "get drinks",
+        "intent": "order_drinks",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to order drinks",
+        "intent": "order_drinks",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "order drinks",
+        "intent": "order_drinks",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -1032,9 +1873,95 @@
         }
       },
       {
+        "text": "thanks",
+        "intent": "order_drinks",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "food please",
+        "intent": "order_food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "get food",
+        "intent": "order_food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i wanna order food",
+        "intent": "order_food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "like jokes food",
+        "intent": "order_food",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "order food",
+        "intent": "order_food",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "goto osg",
+        "intent": "osg",
+        "entities": [
+          {
+            "entity": "osg",
+            "value": "osg",
+            "start": 5,
+            "end": 8
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "goto project",
+        "intent": "osg",
+        "entities": [
+          {
+            "entity": "osg",
+            "value": "project",
+            "start": 5,
+            "end": 12
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "onscreen guidances",
         "intent": "osg",
-        "entities": [],
+        "entities": [
+          {
+            "entity": "osg",
+            "value": "onscreen",
+            "start": 0,
+            "end": 8
+          }
+        ],
         "metadata": {
           "language": "en"
         }
@@ -1044,11 +1971,27 @@
         "intent": "osg",
         "entities": [],
         "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "osg test",
+        "intent": "osg",
+        "entities": [
+          {
+            "entity": "osg",
+            "value": "osg",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "oswg",
+        "text": "test osg",
         "intent": "osg",
         "entities": [],
         "metadata": {
@@ -1056,61 +1999,89 @@
         }
       },
       {
-        "text": "rating",
-        "intent": "rating",
-        "entities": [],
+        "text": "512456",
+        "intent": "pincode",
+        "entities": [
+          {
+            "entity": "pincode",
+            "value": "pincode",
+            "start": 0,
+            "end": 6
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "515400",
+        "intent": "pincode",
+        "entities": [
+          {
+            "entity": "pincode",
+            "value": "pincode",
+            "start": 0,
+            "end": 6
+          }
+        ],
         "metadata": {
           "language": "en",
           "canonical": true
         }
       },
       {
-        "text": "star rating",
-        "intent": "rating",
+        "text": "515414",
+        "intent": "pincode",
+        "entities": [
+          {
+            "entity": "pincode",
+            "value": "pincode",
+            "start": 0,
+            "end": 6
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "715711",
+        "intent": "pincode",
+        "entities": [
+          {
+            "entity": "pincode",
+            "value": "pincode",
+            "start": 0,
+            "end": 6
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "show me slots",
+        "intent": "slots",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "stars",
-        "intent": "rating",
+        "text": "slot",
+        "intent": "slots",
         "entities": [],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "I want to return back on Monday evening from Delhi and fly there on Diwali",
-        "intent": "return",
+        "text": "slots",
+        "intent": "slots",
         "entities": [],
         "metadata": {
           "language": "en",
           "canonical": true
-        }
-      },
-      {
-        "text": "I want to return on 7 th Feb from Delhi",
-        "intent": "return",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "I want to travel to Delhi on Monday and return on Wednesday",
-        "intent": "return",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "I want to travel to Delhi on Wednesday Morning and return on Monday evening",
-        "intent": "return",
-        "entities": [],
-        "metadata": {
-          "language": "en"
         }
       },
       {
@@ -1123,6 +2094,14 @@
         }
       },
       {
+        "text": "rate me",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "rate us",
         "intent": "starrating",
         "entities": [],
@@ -1131,7 +2110,31 @@
         }
       },
       {
+        "text": "star rating",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "star ratings",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "stararting",
+        "intent": "starrating",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "starrating",
         "intent": "starrating",
         "entities": [],
         "metadata": {
@@ -1148,12 +2151,11 @@
         }
       },
       {
-        "text": "show table",
-        "intent": "table",
+        "text": "show me a table",
+        "intent": "tables",
         "entities": [],
         "metadata": {
-          "language": "en",
-          "canonical": true
+          "language": "en"
         }
       },
       {
@@ -1166,8 +2168,122 @@
         }
       },
       {
+        "text": "table please",
+        "intent": "tables",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
         "text": "tables",
         "intent": "tables",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test",
+        "intent": "test",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "test me",
+        "intent": "test",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test test",
+        "intent": "test",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing test",
+        "intent": "test",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "tests",
+        "intent": "test",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "button forms testing",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "forms",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "test forms",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing button forms",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing buttons with button payload",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing forms",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing forms with button payload",
+        "intent": "testing_button_forms",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "testing forms with buttons",
+        "intent": "testing_button_forms",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1180,6 +2296,14 @@
         "metadata": {
           "language": "en",
           "canonical": true
+        }
+      },
+      {
+        "text": "text me",
+        "intent": "text",
+        "entities": [],
+        "metadata": {
+          "language": "en"
         }
       },
       {
@@ -1232,6 +2356,15 @@
         }
       },
       {
+        "text": "ticket count",
+        "intent": "ticket_count",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
         "text": "two",
         "intent": "ticket_count",
         "entities": [],
@@ -1259,6 +2392,22 @@
       {
         "text": "timesheets pending my approval",
         "intent": "timesheets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "timeshets",
+        "intent": "timesheets",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "chart",
+        "intent": "to_place",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1338,8 +2487,24 @@
         }
       },
       {
-        "text": "i want to fly",
-        "intent": "travel",
+        "text": "show me tooltips",
+        "intent": "tooltip",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "toolti",
+        "intent": "tooltip",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "tooltip",
+        "intent": "tooltip",
         "entities": [],
         "metadata": {
           "language": "en",
@@ -1347,11 +2512,75 @@
         }
       },
       {
-        "text": "i want to fly for travel",
-        "intent": "travel",
+        "text": "tooltips",
+        "intent": "tooltip",
         "entities": [],
         "metadata": {
           "language": "en"
+        }
+      },
+      {
+        "text": "I wanna travel from The big apple to the city of light",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 37,
+            "end": 54
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 20,
+            "end": 33
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i like to travel from new-yark to paris",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 34,
+            "end": 39
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 22,
+            "end": 30
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to move from the big apple to the city of light",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 37,
+            "end": 54
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 20,
+            "end": 33
+          }
+        ],
+        "metadata": {
+          "language": "en",
+          "canonical": true
         }
       },
       {
@@ -1359,36 +2588,117 @@
         "intent": "travel",
         "entities": [],
         "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "i want travel in flight",
-        "intent": "travel",
-        "entities": [],
-        "metadata": {
-          "language": "en"
-        }
-      },
-      {
-        "text": "show me videos",
-        "intent": "video",
-        "entities": [],
-        "metadata": {
           "language": "en",
           "canonical": true
         }
       },
       {
-        "text": "vedio",
-        "intent": "video",
-        "entities": [],
+        "text": "i want to travel from Hyderabad to goa",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 35,
+            "end": 38
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 22,
+            "end": 31
+          }
+        ],
         "metadata": {
           "language": "en"
         }
       },
       {
-        "text": "video",
+        "text": "i want to travel from hyd to goa",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 29,
+            "end": 32
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 22,
+            "end": 25
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to travel from new-yark to paris",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 34,
+            "end": 39
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 22,
+            "end": 30
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want to travel from nyc to paris",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 29,
+            "end": 34
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 22,
+            "end": 25
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "i want travel from the big apple to the city of light",
+        "intent": "travel",
+        "entities": [
+          {
+            "entity": "to",
+            "value": "CDG",
+            "start": 36,
+            "end": 53
+          },
+          {
+            "entity": "from",
+            "value": "JFK",
+            "start": 19,
+            "end": 32
+          }
+        ],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "vedio",
         "intent": "video",
         "entities": [],
         "metadata": {
@@ -1406,6 +2716,104 @@
       {
         "text": "videos",
         "intent": "video",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "s",
+        "intent": "yes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "yes",
+        "intent": "yes",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "yess",
+        "intent": "yes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "yesss",
+        "intent": "yes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "ys",
+        "intent": "yes",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": " a to z",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "a",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en",
+          "canonical": true
+        }
+      },
+      {
+        "text": "b",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "c",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "d",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "e",
+        "intent": "z",
+        "entities": [],
+        "metadata": {
+          "language": "en"
+        }
+      },
+      {
+        "text": "h",
+        "intent": "z",
         "entities": [],
         "metadata": {
           "language": "en"
@@ -1441,30 +2849,18 @@
         ]
       },
       {
-        "value": "from",
+        "value": "JFK",
         "synonyms": [
-          "banglore",
-          "banglore",
-          "chennai.kolkota",
-          "del",
-          "delhi",
-          "hyd",
-          "hyderbad",
-          "mum",
-          "mumbai"
+          "NYC",
+          "New-York",
+          "The Big Apple"
         ]
       },
       {
-        "value": "to",
+        "value": "CDG",
         "synonyms": [
-          "europe",
-          "germany",
-          "goa",
-          "japan",
-          "kerala",
-          "uk",
-          "us",
-          "usa"
+          "Paris",
+          "The city of light"
         ]
       }
     ],
@@ -1477,13 +2873,93 @@
         ]
       },
       {
+        "value": "from",
+        "gazette": [
+          "Bangalore",
+          "Delhi",
+          "Hyderabad",
+          "Kolkata",
+          "Mumbai",
+          "banglore",
+          "chennai",
+          "hyd",
+          "mum",
+          "new yark",
+          "nyc",
+          "the big apple"
+        ]
+      },
+      {
+        "value": "to",
+        "gazette": [
+          "paris",
+          "the city of light"
+        ]
+      },
+      {
         "value": "name",
         "gazette": [
           "bharath",
           "sharath"
         ]
+      },
+      {
+        "value": "name",
+        "gazette": [
+          "bharath",
+          "sharath"
+        ]
+      },
+      {
+        "value": "from",
+        "gazette": [
+          "Bangalore",
+          "Delhi",
+          "Hyderabad",
+          "Kolkata",
+          "Mumbai",
+          "banglore",
+          "chennai",
+          "hyd",
+          "mum",
+          "new yark",
+          "nyc",
+          "the big apple"
+        ]
+      },
+      {
+        "value": "to",
+        "gazette": [
+          "paris",
+          "the city of light"
+        ]
       }
     ],
-    "regex_features": []
+    "regex_features": [
+      {
+        "name": "pincode",
+        "pattern": "(^\\d{5}$)|(^\\d{5}-\\d{4}$)"
+      },
+      {
+        "name": "number_plate",
+        "pattern": "[A-Z]{1,3}-[A-Z]{1,2}-[0-9]{1,4}"
+      },
+      {
+        "name": "pincode",
+        "pattern": "[0-9]{1,6}"
+      },
+      {
+        "name": "pincode",
+        "pattern": "(^\\d{5}$)|(^\\d{5}-\\d{4}$)"
+      },
+      {
+        "name": "number_plate",
+        "pattern": "[A-Z]{1,3}-[A-Z]{1,2}-[0-9]{1,4}"
+      },
+      {
+        "name": "pincode",
+        "pattern": "[0-9]{1,6}"
+      }
+    ]
   }
 }

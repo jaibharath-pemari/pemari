@@ -1,16 +1,37 @@
 stories:
-  - story: css
+  - story: custom_css
+    steps:
+      - intent: custom_css
+        user: custom css
+      - action: utter_f4xPsfL8Y
+    metadata:
+      group: css
+  - story: default_hilight_animation
+    steps:
+      - intent: animation
+        user: animation
+      - action: utter_WNLHFO0Fh
+    metadata:
+      group: css
+  - story: tooltip-css
     steps:
       - intent: css
         user: css
       - action: utter_SU12rOV__
     metadata:
       group: css
-  - story: hilight class
+  - story: tooltip-hilight class
     steps:
       - intent: class
         user: class
       - action: utter_F7WewSvFU
+    metadata:
+      group: css
+  - story: tooltip-text-color
+    steps:
+      - intent: tooltip
+        user: tooltip
+      - action: utter_-Be7jkLs7
     metadata:
       group: css
 rules: []

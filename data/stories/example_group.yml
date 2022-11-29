@@ -1,4 +1,47 @@
-stories: []
+stories:
+  - story: buy bike
+    steps:
+      - intent: buy_bike
+        user: i want to buy bike
+      - action: utter_8u3DtE0kj
+      - intent: pincode
+        user: '515414'
+      - action: utter_RYacrap1m
+      - intent: number_plate
+        user: '1111'
+      - action: utter_PgeK55WmG
+    metadata:
+      group: Example group
+  - story: entities - buy shirts
+    steps:
+      - intent: buy_shirt
+        user: i want a blue shirt
+        entities:
+          - color: blue
+      - action: utter_O4HTYucD1
+    metadata:
+      group: Example group
+  - story: fallback intent
+    steps:
+      - intent: fallback_intent
+        entities: []
+      - action: utter_fallback
+    metadata:
+      group: Example group
+  - story: Order drinks
+    steps:
+      - intent: order_drinks
+        user: i want to order drinks
+      - action: utter_efD1HIdCQ
+    metadata:
+      group: Example group
+  - story: Order food
+    steps:
+      - intent: order_food
+        user: i wanna order food
+      - action: utter_7zUVLo3ft
+    metadata:
+      group: Example group
 rules:
   - rule: Farewells
     condition: []
@@ -17,7 +60,9 @@ rules:
   - rule: Greetings
     condition: []
     steps:
-      - intent: smalltalk.greet
+      - intent: greet
+        user: hello
       - action: utter_hi
+    wait_for_user_input: false
     metadata:
       group: Example group

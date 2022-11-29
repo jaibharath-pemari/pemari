@@ -1,0 +1,9 @@
+stories:
+  - story: jokes
+    steps:
+      - intent: jokes
+        user: jokes
+      - action: action_jokes
+    metadata:
+      group: test_actions
+rules: []

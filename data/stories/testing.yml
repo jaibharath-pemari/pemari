@@ -13,28 +13,18 @@ stories:
       - action: utter_deFuTeEF4
     metadata:
       group: Testing
+  - story: carousel new
+    steps:
+      - intent: new_carousel
+        user: new features
+      - action: utter_MQYhhWyEY
+    metadata:
+      group: Testing
   - story: Feedback
     steps:
       - intent: feedback
         user: feedback
       - action: utter_nIatl3cJ6
-      - checkpoint: Feedback__branches
-    metadata:
-      group: Testing
-  - story: Feedback__dislike
-    steps:
-      - checkpoint: Feedback__branches
-      - intent: dislike_intent
-        entities: []
-      - action: utter_msdFtPWNL
-    metadata:
-      group: Testing
-  - story: Feedback__like
-    steps:
-      - checkpoint: Feedback__branches
-      - intent: like_intent
-        entities: []
-      - action: utter_x26WTFxOy
     metadata:
       group: Testing
   - story: feedback_1
@@ -58,6 +48,13 @@ stories:
       - action: utter_m6G-eAGY6
     metadata:
       group: Testing
+  - story: gazette
+    steps:
+      - intent: travel
+        user: i want to travel from new york to paris
+      - action: utter_Rq6q6TDvz
+    metadata:
+      group: Testing
   - story: image
     steps:
       - intent: image
@@ -65,28 +62,11 @@ stories:
       - action: utter_zDlm2j2dy
     metadata:
       group: Testing
-  - story: osg
+  - story: slots
     steps:
-      - intent: timesheets
-        user: timesheets pending my approval
-      - action: utter_XSC16FaUV
-      - checkpoint: osg__branches
-    metadata:
-      group: Testing
-  - story: osg__callback
-    steps:
-      - checkpoint: osg__branches
-      - intent: callback
-        entities: []
-      - action: utter_SB60dBWul
-    metadata:
-      group: Testing
-  - story: osg__error
-    steps:
-      - checkpoint: osg__branches
-      - intent: error
-        entities: []
-      - action: utter_3CDQm_lbS1
+      - intent: slots
+        user: slots
+      - action: utter_wjwJRgJoP
     metadata:
       group: Testing
   - story: starrating
@@ -96,18 +76,11 @@ stories:
       - action: utter_ETLxfw2Yf
     metadata:
       group: Testing
-  - story: starrating
-    steps:
-      - intent: rating
-        user: star rating
-      - action: utter_PPAaCyFCL
-    metadata:
-      group: Testing
   - story: Table
     steps:
       - intent: tables
         user: table
-      - action: utter_5774xMNLh
+      - action: utter_Moy2znEpO
     metadata:
       group: Testing
   - story: text
@@ -117,23 +90,30 @@ stories:
       - action: utter_B6e4Qk-We
     metadata:
       group: Testing
-  - story: Triggers
+  - story: trigger
     steps:
-      - intent: trigger_z3TjwUFWm
+      - intent: trigger_xODatKE48
         entities: []
-      - action: utter_kvN93ig3o
+      - action: utter_4BHzzbG3g
     metadata:
       rules:
         - trigger:
             when: always
-            timeLimit__DISPLAYIF: true
-            timeLimit: 1
             url__DISPLAYIF: true
             url:
-              - partialMatch: true
+              - partialMatch: false
                 regularExpression: false
-                path: 'http://192.168.29.22:8080/pmb/#/projects/common'
-      triggerIntent: trigger_z3TjwUFWm
+                path: 'https://skydev.pemari.com/pmb/#/ideas/common'
+            urlIsSequence: true
+            timeOnPage__DISPLAYIF: true
+            timeOnPage: 1
+            timeLimit__DISPLAYIF: false
+            numberOfPageVisits__DISPLAYIF: true
+            numberOfPageVisits: 1
+            queryString__DISPLAYIF: false
+          text__DISPLAYIF: true
+          text: trigger working
+      triggerIntent: trigger_xODatKE48
       group: Testing
   - story: video
     steps:

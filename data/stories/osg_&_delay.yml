@@ -1,0 +1,40 @@
+stories:
+  - story: delay-text
+    steps:
+      - intent: delay
+        user: delay
+      - action: utter_eb0e9CeuW
+    metadata:
+      group: osg & Delay
+  - story: osg-tooltip
+    steps:
+      - intent: osg
+        user: goto project
+      - action: utter_6rF_MgVO6
+    metadata:
+      group: osg & Delay
+  - story: timesheets osg
+    steps:
+      - intent: timesheets
+        user: timesheets pending my approval
+      - action: utter_XSC16FaUV
+      - checkpoint: timesheets_osg__branches
+    metadata:
+      group: osg & Delay
+  - story: timesheets osg__callback
+    steps:
+      - checkpoint: timesheets_osg__branches
+      - intent: callback
+        entities: []
+      - action: utter_SB60dBWul
+    metadata:
+      group: osg & Delay
+  - story: timesheets osg__error
+    steps:
+      - checkpoint: timesheets_osg__branches
+      - intent: error
+        entities: []
+      - action: utter_3CDQm_lbS1
+    metadata:
+      group: osg & Delay
+rules: []

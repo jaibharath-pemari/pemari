@@ -1,0 +1,10 @@
+stories:
+  - story: test
+    steps:
+      - intent: test
+        user: test
+      - action: utter_1qJ2bnttjW
+      - action: utter_UdlTjkI01
+    metadata:
+      group: test_1
+rules: []
